@@ -1,4 +1,5 @@
 const COVID_19 = {
+    id: "covid-19",
     title: "COVID-19",
     description: `COVID-19 originated in Wuhan, China. This virus has travelled around the world and has been declared by the world Health Organization 
         as a worldwide pandemic. Over __ deaths have occurred so far with the hardest hit country being America. 
@@ -15,6 +16,6 @@ const COVID_19 = {
     ]
 };
 
-export const CauseData = {
+export const CauseData = [
     COVID_19,
-}
+];
