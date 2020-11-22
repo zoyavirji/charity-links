@@ -2,55 +2,41 @@
   <v-app>
     <v-app-bar
       app
-      color="primary"
-      dark
+      elevate-on-scroll
+      color="rgb(207, 195, 150)"
+      light
+      shrink-on-scroll
+      prominent
+      :src="require('./assets/header.jpg')"
+      fade-img-on-scroll
     >
-      <div class="d-flex align-center">
+      <template v-slot:img="{ props }">
         <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
-
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
-      </div>
-
+          v-bind="props"
+          gradient="to top, rgba(207, 195, 150, .5), 	rgba(207, 195, 150, .3)"
+        ></v-img>
+      </template>
       <v-spacer></v-spacer>
-
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
+      <div class="d-flex align-center" color="rgb(86, 72, 50)">
+        <v-toolbar-title>Charity Links</v-toolbar-title>
+      </div>
+      <v-spacer></v-spacer>
     </v-app-bar>
 
     <v-main>
-      <HelloWorld/>
+      <CausePicker/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import CausePicker from './components/CausePicker';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    CausePicker,
   },
 
   data: () => ({
