@@ -20,20 +20,32 @@
         </h2>
 
         <v-row justify="center">
-          <a
-            href="#"
-            class="subheading mx-3"
+          <v-card
+            v-for="cause in causeData"
+            :key="cause.title"
           >
-            COVID-19
-          </a>
+            <v-img
+              :src="cause.imageUrl"
+              class="white--text align-center"
+              height="200px"
+              max-width="300px"
+              >
+               <v-card-title v-text="cause.title"></v-card-title>
+            </v-img>
+          </v-card>
         </v-row>
-      </v-col>s
+      </v-col>
     </v-row>
   </v-container>
 </template>
 
 <script>
+  import {CauseData} from '../assets/CauseData.js';
+
   export default {
     name: 'CausePicker',
+    data: () => ({
+      causeData: CauseData,
+    }),
   }
 </script>
