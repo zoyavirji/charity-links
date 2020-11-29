@@ -3,7 +3,7 @@
     <v-row class="text-center">
       <v-col class="mb-4">
         <h1 class="display-2 font-weight-bold mb-3">
-          Welcome to Charity Links
+          Welcome to CBAH
         </h1>
 
         <p class="subheading font-weight-regular">
@@ -22,8 +22,9 @@
         <v-row justify="center">
           <v-card
             v-for="cause in causeData"
-            :key="cause.title"
+            :key="cause.id"
           >
+          <a :href="'/cause/' + cause.id">
             <v-img
               :src="cause.imageUrl"
               class="white--text align-center"
@@ -32,6 +33,7 @@
               >
                <v-card-title v-text="cause.title"></v-card-title>
             </v-img>
+            </a>
           </v-card>
         </v-row>
       </v-col>
@@ -49,3 +51,9 @@
     }),
   }
 </script>
+
+<style>
+    a:link {
+        text-decoration: none;
+    }
+</style>

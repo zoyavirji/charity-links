@@ -2,23 +2,20 @@
   <v-app>
     <v-app-bar
       app
-      elevate-on-scroll
-      color="rgb(207, 195, 150)"
+      color="#fff"
       light
-      shrink-on-scroll
       prominent
-      :src="require('./assets/header.jpg')"
-      fade-img-on-scroll
     >
-      <template v-slot:img="{ props }">
-        <v-img
-          v-bind="props"
-          gradient="to top, rgba(207, 195, 150, .5), 	rgba(207, 195, 150, .3)"
-        ></v-img>
-      </template>
       <v-spacer></v-spacer>
-      <div class="d-flex align-center" color="rgb(86, 72, 50)">
-        <v-toolbar-title>Charity Links</v-toolbar-title>
+      <div class="d-flex justify-center">
+        <v-img
+            :src="require('./assets/logo.png')"
+            width="100"
+        ></v-img>
+        <div class="d-flex justify-center align-start flex-column logo mt-4 ml-2" color="#153B50">
+            <span class="text-h4 font-weight-light">CBAH</span>
+            <span class="text-subtitle-1">Charity Begins At Home</span>
+        </div>
       </div>
       <v-spacer></v-spacer>
       <a href="/about">About</a>
@@ -36,7 +33,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #153B50;
 }
 
 #nav {
