@@ -20,7 +20,7 @@
       </div>
       </router-link>
       <v-spacer></v-spacer>
-      <a class="align-self" href="/about">About</a>
+      <a class="align-self-center" href="/about">About</a>
     </v-app-bar>
 
     <v-main>
