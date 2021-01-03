@@ -12,6 +12,38 @@ const COVID_19 = {
         {
             name: 'Canada Helps',
             url: 'https://www.canadahelps.org/en/donate-to-coronavirus-outbreak-response/',
+        },
+        {
+            name: 'Food Banks Canada',
+            url: 'https://www.foodbankscanada.ca/COVID-19.aspx',
+        },
+        {
+            name: 'Covid-19 Toronto',
+            url: 'https://www.toronto.ca/home/covid-19/covid-19-how-you-can-help/covid-19-donateto/',
+        },
+        {
+            name: 'World Health Organization',
+            url: 'https://www.who.int/emergencies/diseases/novel-coronavirus-2019/donate#:~:text=Everyone%20can%20now%20support%20directly,.COVID19ResponseFund.org.',
+        },
+        {
+            name: 'Canadian Red Cross',
+            url: 'https://www.redcross.ca/how-we-help/current-emergency-responses/covid-19-%E2%80%93-novel-coronavirus',
+        },
+        {
+            name: 'Alberta Health Services',
+            url: 'https://www.albertahealthservices.ca/give/give.aspx',
+        },
+        {
+            name: 'Howard Brown',
+            url: 'https://howardbrown.org/get-involved/support-our-covid-19-response/',
+        },
+        {
+            name: 'Matthew 25: Ministries',
+            url: 'https://donatenow.networkforgood.org/matthew25ministries',
+        },
+        {
+            name: 'Fistula Foundation',
+            url: 'https://fistulafoundation.org/donations/covid-19-emergency-fund/',
         }
     ]
 };
@@ -25,6 +57,30 @@ const BLACK_LIVES_MATTER = {
         {
             name: 'BLM Canada',
             url: 'https://secure3.convio.net/blmca/site/Donation2;jsessionid=00000000.app30028b?df_id=1480&mfc_pref=T&1480.donation=form1&FR_ID=1060&mfc_pref=T&PROXY_ID=1060&PROXY_TYPE=21/&NONCE_TOKEN=99797F29668989D831EE516645126FAB',
+        },
+        {
+            name: 'Carrd',
+            url: 'https://blacklivesmatters.carrd.co/#donate',
+        },
+        {
+            name: 'Act Blue',
+            url: 'https://secure.actblue.com/donate/ms_blm_homepage_2019',
+        },
+        {
+            name: 'Equal Justice Initiative',
+            url: 'https://support.eji.org/give/153413/#!/donation/checkout',
+        },
+        {
+            name: 'ACLU',
+            url: 'https://action.aclu.org/give/now',
+        },
+        {
+            name: '174 Ways',
+            url: 'https://nymag.com/strategist/article/where-to-donate-for-black-lives-matter.html',
+        },
+        {
+            name: 'Ways to Help',
+            url: 'https://blacklivesmatters.carrd.co/',
         }
     ]
 
@@ -39,6 +95,34 @@ const LEBANON_EXPLOSION = {
         {
             name: 'Lebanese Red Cross',
             url: 'https://supportlrc.app/donate/',
+        },
+        {
+            name: 'Just Giving',
+            url: 'https://www.justgiving.com/fundraising/lebanon-relief',
+        },
+        {
+            name: 'Carrd',
+            url: 'https://lebanoncrisis.carrd.co/#donate',
+        },
+        {
+            name: 'Live Love',
+            url: 'https://livelove.org/helplebanon',
+        },
+        {
+            name: 'Lebanese Food Bank',
+            url: 'https://lebanesefoodbank.org/',
+        },
+        {
+            name: 'UNICEF',
+            url: 'https://www.unicef.org.au/appeals/lebanon-emergency',
+        },
+        {
+            name: 'International Rescue Committee',
+            url: 'https://help.rescue.org/donate/featured',
+        },
+        {
+            name: 'PCRF',
+            url: 'https://pcrf1.z2systems.com/np/clients/pcrf1/donation.jsp?campaign=1881',
         }
     ]
 
@@ -53,6 +137,26 @@ const PALESTINE_HUMAN_RIGHTS = {
         {
             name: 'Islamic Relief Canada',
             url: 'https://www.islamicreliefcanada.org/appeals/palestine/',
+        },
+        {
+            name: 'Canada Helps',
+            url: 'https://www.canadahelps.org/en/charities/medical-aid-for-palestine/',
+        },
+        {
+            name: 'Islamic Aid',
+            url: 'https://www.islamicaid.com/palestine-apeal/',
+        },
+        {
+            name: 'ICNA Relief Canada',
+            url: 'https://icnareliefcanada.ca/news?id=10',
+        },
+        {
+            name: 'PCRF',
+            url: 'https://www.pcrf.net/',
+        },
+        {
+            name: 'anera',
+            url: 'https://www.anera.org/where-we-work/gaza/',
         }
     ]
 };
@@ -66,6 +170,14 @@ const TURKEY_GENDER_VIOLENCE = {
         {
             name: 'Mor Çatı',
             url: 'https://morcati.org.tr/bagis/',
+        },
+        {
+            name: 'GO Fund Me',
+            url: 'https://ca.gofundme.com/f/domestic-violence-against-women-in-turkey',
+        },
+        {
+            name: 'Small Projects Istanbul',
+            url: 'https://www.smallprojectsistanbul.org/donate/',
         }
     ]
 };
@@ -79,6 +191,10 @@ const UYGHUR_MUSLIMS = {
         {
             name: 'ICNA Relief Canada',
             url: 'https://donate.icnareliefcanada.ca/donation/international?project=Uyghur+Relief',
+        },
+        {
+            name: 'Sound Vision',
+            url: 'https://give.soundvision.com/civicrm/contribute/transact?id=3&#038;reset=1',
         }
     ]
 };
