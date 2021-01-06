@@ -2,7 +2,7 @@ const COVID_19 = {
     id: "covid-19",
     title: "COVID-19",
     description: `COVID-19 originated in Wuhan, China. This virus has travelled around the world and has been declared by the world Health Organization 
-        as a worldwide pandemic. Over __ deaths have occurred so far with the hardest hit country being America. 
+        as a worldwide pandemic. Nearly 2 million deaths have occurred so far with the hardest hit country being America. 
         Coronavirus is a family of viruses that can affect humans and animals. They’re structure is a sphere with spikes of protein surrounding it to 
         infect healthy cells. These spikes also allow the body to acknowledge its presence which then causes the symptoms to show. Because the form of 
         this virus replicated a crown, it is named "corona" meaning crown in Latin. It is said that the virus originated from a bat but this has not yet 
@@ -51,7 +51,7 @@ const COVID_19 = {
 const BLACK_LIVES_MATTER = {
     id: "blm",
     title: "Black Lives Matter",
-    description: "On May 25 2020, a black man named George Floyd was murdered in Minnesota at the hands of a white cop. Once this   tragic event occurred, many people around the world set up protests to voice their anger with the issue of racism that has    yet to be solved after __ years. Of course during the pandemic large gatherings were discouraged, however, PPE was worn for   those who attended. For the rest of the month of May and almost all of June, hashtags and posts were trending to spread       awareness of the terrible acts of racism in the last __ years. Currently, online petitions and donations are the most         impactful way to help make change and to encourage local authorities to sentence the police who kill black people without     reason.",
+    description: "On May 25 2020, a black man named George Floyd was murdered in Minnesota at the hands of a white cop. Once this   tragic event occurred, many people around the world set up protests to voice their anger with the issue of racism that has    yet to be solved after hundreds of years. Of course during the pandemic large gatherings were discouraged, however, personal protective equipment was worn for   those who attended. For the rest of the month of May and almost all of June, hashtags and posts were trending to spread       awareness of the terrible acts of racism in the last 20 years. Currently, online petitions and donations are the most         impactful way to help make change and to encourage local authorities to sentence the police who kill black people without     reason.",
     imageUrl: require('./blm.jpg'),
     links: [
         {
