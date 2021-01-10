@@ -6,9 +6,6 @@
           Welcome to CBAH
         </h1>
 
-        <p class="subheading font-weight-regular">
-          Description of this site
-        </p>
       </v-col>
 
       <v-col
